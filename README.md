@@ -166,6 +166,6 @@ require("schemastore").json.schemas({
 
 ## License
 
-&copy; 2021-2024 Maddison Hellstrom and Contributors.
+&copy; 2021-2026 Maddison Cohodas and Contributors.
 
 Released under the Apache 2.0 License.
