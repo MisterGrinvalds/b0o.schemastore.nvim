@@ -107,6 +107,7 @@ M.json = {
     ["AWS CloudFormation Serverless Application Model (SAM)"] = 270,
     ["AWS Copilot Manifest"] = 1221,
     ["AWS SAM CLI Samconfig"] = 271,
+    Acton = 1270,
     ["Adobe UXP Manifest"] = 1116,
     ["Aerleon Network & Service Definitions"] = 21,
     ["Aerleon Policy"] = 22,
@@ -8462,6 +8463,11 @@ M.json = {
       fileMatch = { "*.envelope.json", "team.envelope.json" },
       name = "Envelope Team Definition",
       url = "https://schema.openenvelope.org/team/v1.json"
+    }, {
+      description = "Configuration file for Acton projects",
+      fileMatch = { "Acton.toml" },
+      name = "Acton",
+      url = "https://raw.githubusercontent.com/ton-blockchain/acton/master/crates/acton-config/schemas/acton.schema.json"
     } },
   version = 1
 }
