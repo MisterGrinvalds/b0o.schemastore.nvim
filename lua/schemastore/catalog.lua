@@ -3,7 +3,7 @@
 --  This file is an automatically generated version of the SchemaStore
 --  catalog, converted from JSON to Lua.
 --
---  SchemaStore.nvim is copyright 2021-2026 Maddison Hellstrom and contributors
+--  SchemaStore.nvim is copyright 2021-2026 Maddison Cohodas and contributors
 --
 --  The SchemaStore project can be found at:
 --
