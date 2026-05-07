@@ -7521,7 +7521,7 @@ M.json = {
       description = "Declarative Automation Bundles config",
       fileMatch = { "databricks.yml", "databricks.yaml" },
       name = "Declarative Automation Bundles",
-      url = "https://www.schemastore.org/declarative-automation-bundles.json"
+      url = "https://github.com/databricks/cli/releases/latest/download/jsonschema.json"
     }, {
       description = "Meta-validation JSON Schema Draft 7 (unofficial with '$ref' and 'format')",
       name = "JSON Schema Draft 4 (unofficial with '$ref' and 'format')",
