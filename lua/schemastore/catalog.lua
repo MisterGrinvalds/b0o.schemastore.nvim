@@ -8507,10 +8507,14 @@ M.json = {
       name = "Acton",
       url = "https://raw.githubusercontent.com/ton-blockchain/acton/master/crates/acton-config/schemas/acton.schema.json"
     }, {
-      description = "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://github.com/UladzKha/memnex",
+      description = "Open specification for portable meeting outputs — transcripts, summaries, action items, and decisions. https://memnex.org",
       fileMatch = { "*.memnex.json", "meeting-output.json" },
       name = "memnex",
-      url = "https://raw.githubusercontent.com/UladzKha/memnex/main/schema/v0.1/meeting-output.schema.json"
+      url = "https://memnex.org/schema/v0.2/meeting-output.schema.json",
+      versions = {
+        ["0.1"] = "https://memnex.org/schema/v0.1/meeting-output.schema.json",
+        ["0.2"] = "https://memnex.org/schema/v0.2/meeting-output.schema.json"
+      }
     } },
   version = 1
 }
