@@ -1476,11 +1476,12 @@ M.json = {
       description = "ABCClinicalDemandForecast defining the structure of clinical trial demand forecasting data in ABC-Plan",
       fileMatch = { "abc-clinical-demand-forecast-*.json" },
       name = "ABCClinicalDemandForecast",
-      url = "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
+      url = "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json",
       versions = {
         ["1.0.0"] = "https://www.schemastore.org/abc-clinical-demand-forecast-1.0.0.json",
         ["2.0.0"] = "https://www.schemastore.org/abc-clinical-demand-forecast-2.0.0.json",
-        ["3.0.0"] = "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json"
+        ["3.0.0"] = "https://www.schemastore.org/abc-clinical-demand-forecast-3.0.0.json",
+        ["4.0.0"] = "https://www.schemastore.org/abc-clinical-demand-forecast-4.0.0.json"
       }
     }, {
       description = "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
@@ -3771,7 +3772,7 @@ M.json = {
       description = "YAML configuring Hazelcast 5 Platform (member and client)",
       fileMatch = { "hazelcast*.yaml", "hazelcast*.json", "hz-*.yaml", "hz-*.json" },
       name = "Hazelcast 5 Configuration",
-      url = "https://hazelcast.com/schema/config/hazelcast-config-5.6.json"
+      url = "https://hazelcast.com/schema/config/hazelcast-config-5.7.json"
     }, {
       description = "Home Assistant integration manifest file. Documentation: https://developers.home-assistant.io/docs/creating_integration_manifest/",
       fileMatch = { "**/homeassistant/components/*/manifest.json", "**/custom_components/*/manifest.json" },
